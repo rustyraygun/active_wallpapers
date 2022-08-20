@@ -1,0 +1,47 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.iframeWrapper{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#basic_btn  {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#code {
+    color: black;
+}
+
+#shader_code {
+    background-color: rgb(217, 217, 217);
+   
+}
+
+#node_code {
+    background-color: rgb(217, 217, 217);
+ 
+}

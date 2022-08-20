@@ -1,0 +1,12 @@
+{
+  "AppVersion": "0.1",
+  "Title": "[001] Static Blocks Blue",
+  "Thumbnail": "logo.png",
+  "Preview": "preview.png",
+  "Desc": "noise shader",
+  "Author": "RustyRaygun",
+  "License": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "Contact": "https://rustyraygun.github.io/",
+  "Type": 1,
+  "FileName": "index.html"
+}

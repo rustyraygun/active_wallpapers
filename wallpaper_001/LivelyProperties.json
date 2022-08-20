@@ -1,0 +1,12 @@
+{
+    "color1Class": {
+      "text": "Color 1",
+      "type": "color",
+      "value": "#C0C0C0"
+    },
+    "btnUpdate" : {
+      "text" : "Update",
+      "type" : "button",
+      "value" : true
+      }
+  }
