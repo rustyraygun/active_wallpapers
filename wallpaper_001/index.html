@@ -23,15 +23,22 @@
 
     <div class="container mt-5">
         <div class="row">
-                <h1 id="welcome_message"></h1>
+                <h1 id="welcome_message"></h1><br>
+                <p>Speed:</p>
+                <div id="slider_box">
+                    <h2 id="slider_label"> </h2>
+
+                    <input type="range" min="1" max="15" value="1" class="slider_ui" id="slider_range" onchange="slider_range(this.value)">
+                </div>
                 <div class="row">
                     <div class="col">
                         Colors:<br/>
+                        <!-- You cannot use the propertylistener in the main html file and in the js file when using as a lively wallpaper. -->
                         <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#602e2e')">COLOR 1</button>
                         <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#427a3f')" >COLOR 2</button>
                         <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#25547d')" >COLOR 3</button>
-                        <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#963a92')" >COLOR 3</button>
-                        <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#160f16')" >COLOR 4</button>
+                        <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#963a92')" >COLOR 4</button>
+                        <button id="basic_btn" onclick="livelyPropertyListener('color_1', '#160f16')" >COLOR 5</button>
                     </div>
                     <div id="info_box">
                         <a href="" target="_blank"><h4>Download Active Wallpaper [Lively]</h4></a>
