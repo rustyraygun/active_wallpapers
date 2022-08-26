@@ -52,7 +52,7 @@
                         uniform vec2 pressure_point = vec2(0.0, 3.0);<br>
 
                         void fragment() {<br>
-                            vec2 uv = UV * 0.05;<br>
+                            vec2 uv = UV ;<br>
                             float a = fract(sin(dot(UV, vec2(12.9898, 78.233 * TIME) *pressure_point   )) * 438.5453);<br>
                             vec4 col = texture(TEXTURE, UV);<br>
 
