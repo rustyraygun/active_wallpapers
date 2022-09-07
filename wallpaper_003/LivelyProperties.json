@@ -1,0 +1,18 @@
+{
+    "color1": {
+      "text": "Color 1",
+      "type": "color",
+      "value": "#C0C0C0"
+    },
+
+    "speed": {
+    "max": 5,
+    "min": 1,
+    "tick": 10,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+
+    }
+
+  }
